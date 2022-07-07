@@ -41,10 +41,10 @@ and wait for it to connect. Then you'll be able to run the commands listed below
 
 ## Commands
 
-?help - Display the help screen
-?newGame - Start a new game if one isn't already going
-?move - Make a move in the current game if it is chat's turn (ex: ?move b2b4)
-?listMoves - list all possible moves for the current playing side
+* ?help - Display the help screen
+* ?newGame - Start a new game if one isn't already going
+* ?move - Make a move in the current game if it is chat's turn (ex: ?move b2b4)
+* ?listMoves - list all possible moves for the current playing side
 
 ## Authors
 
