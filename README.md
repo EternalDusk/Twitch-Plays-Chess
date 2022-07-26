@@ -35,16 +35,16 @@ To get an oauth token, go to [Twitch Token Generator](https://twitchtokengenerat
 
 Simply run
 ```
-py main.py
+python main.py
 ```
 and wait for it to connect. Then you'll be able to run the commands listed below.
 
 ## Commands
 
 * ?help - Display the help screen
-* ?newGame - Start a new game if one isn't already going
+* ?newgame - Start a new game if one isn't already going
 * ?move - Make a move in the current game if it is chat's turn (ex: ?move b2b4)
-* ?listMoves - list all possible moves for the current playing side
+* ?listmoves - list all possible moves for the current playing side
 
 ## Authors
 
@@ -54,9 +54,18 @@ Dusk
 
 ## Version History
 
+* 0.2
+    * Prevented other chatters from playing an already running game
+    * Added an X overlayed onto the checkmated king
+    * Changed all commands to be all lowercase
+    * Fixed redundant code in the move function for drawing the current board state
+
 * 0.1
     * Initial Release
 
 ## To-Do
 - [ ] Add check square highlighting
 - [ ] Add last move arrow
+- [ ] Add X overlayed onto both kings in state of draw
+- [ ] Display the current turn (highlight playing turn's moveable pieces)
+- [ ] Add a twitch overlay component allowing players to directly interact with the chess board through screen
