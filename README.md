@@ -48,9 +48,7 @@ and wait for it to connect. Then you'll be able to run the commands listed below
 
 ## Authors
 
-Dusk
-
-[Linktree](https://linktr.ee/EternalDusk)
+Dusk - [Linktree](https://linktr.ee/EternalDusk)
 
 ## Version History
 
